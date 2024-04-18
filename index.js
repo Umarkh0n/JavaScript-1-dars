@@ -11,8 +11,7 @@ const newYear = []
     function calcAge() {
         for (let year of birthYears){
             newYear.push( years - year)
-        }
-            
+        }       
     }
     calcAge()
 
